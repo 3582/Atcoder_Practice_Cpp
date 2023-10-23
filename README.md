@@ -1,5 +1,6 @@
 # Atcoder_Practice_Cpp
-```
+
+```bash
 g++ -o out test.cpp
 ./out 
 ```
@@ -23,3 +24,14 @@ int main()
     cout << (a+b+c) << " " << s << endl;
     return 0;
 }
+
+```input
+N M
+AN,1 AN,2 AN,3... AN,M
+    cin >> N >> M;
+    for (int i = 1; i <= N; i++)
+    {
+        for (int j = 1; j <= M; j++)
+            cin >> A[i][j];
+    }
+```
