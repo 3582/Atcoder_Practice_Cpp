@@ -18,7 +18,7 @@ int main()
         for (int j = i + 1; j <= M; j++)
         {
             long long cnt = 0;
-            for (int k = 0; k <= N; k++)
+            for (int k = 1; k <= N; k++)
                 cnt += max(A[k][i], A[k][j]);
             ans = max(ans, cnt);
         }
