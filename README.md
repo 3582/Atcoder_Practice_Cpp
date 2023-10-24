@@ -11,6 +11,7 @@ https://ttsuki.github.io/styleguide/cppguide.ja.html
 using namespace std;
 int main()
 {
+    int ans = 0;
     // 整数の入力
     int a;
     cin >> a;
@@ -21,7 +22,7 @@ int main()
     string s;
     cin >> s;
     // 出力
-    cout << (a+b+c) << " " << s << endl;
+    cout << ans << endl;
     return 0;
 }
 
