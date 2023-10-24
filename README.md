@@ -27,12 +27,25 @@ int main()
 }
 
 ```input
-N M
-AN,1 AN,2 AN,3... AN,M
+// N M
+// AN,1 AN,2 AN,3... AN,M
+
+long long N, M, A[109][109];
+
     cin >> N >> M;
     for (int i = 1; i <= N; i++)
     {
         for (int j = 1; j <= M; j++)
             cin >> A[i][j];
     }
+```
+```input
+// N
+// AN BN
+
+long long N, A[100], B[100], minx = (1LL << 60);
+    cin >> N;
+    for (int i = 1; i <= N; i++)
+        cin >> A[i] >> B[i];
+
 ```
