@@ -7,6 +7,7 @@ g++ -o out test.cpp
 
 https://ttsuki.github.io/styleguide/cppguide.ja.html
 
+```example
 #include<iostream>
 using namespace std;
 int main()
@@ -25,6 +26,7 @@ int main()
     cout << ans << endl;
     return 0;
 }
+```
 
 ```input
 // N M
@@ -39,6 +41,7 @@ long long N, M, A[109][109];
             cin >> A[i][j];
     }
 ```
+
 ```input
 // N
 // AN BN
@@ -47,5 +50,9 @@ long long N, A[100], B[100], minx = (1LL << 60);
     cin >> N;
     for (int i = 1; i <= N; i++)
         cin >> A[i] >> B[i];
+```
 
+```vector
+    // g++ -o D-Faction D-Faction.cpp -std=c++14
+    vector<vector<int>> graph(12, vector<int>(12));
 ```
