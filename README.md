@@ -56,3 +56,11 @@ long long N, A[100], B[100], minx = (1LL << 60);
     // g++ -o D-Faction D-Faction.cpp -std=c++14
     vector<vector<int>> graph(12, vector<int>(12));
 ```
+
+```vector
+    int N;
+    cin >> N;
+    vector<long long> h(N), s(N);
+    for (int i = 0; i < N; i++)
+        cin >> h[i] >> s[i];
+```
