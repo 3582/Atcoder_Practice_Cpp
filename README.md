@@ -53,7 +53,7 @@ long long N, A[100], B[100], minx = (1LL << 60);
 ```
 
 ```vector
-    // g++ -o D-Faction D-Faction.cpp -std=c++14
+    // g++ -o D-Faction D-Faction.cpp -std=c++17
     vector<vector<int>> graph(12, vector<int>(12));
 ```
 
