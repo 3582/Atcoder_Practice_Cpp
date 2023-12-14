@@ -1,12 +1,12 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <cmath>
 using namespace std;
 
-int N, X[150], Y[150];
+int N, X[159], Y[159];
 // 訪れる順番
-int P[150];
+int P[159];
 // visited[i]=trueの時、都市iを訪問した
-bool visited[150];
+bool visited[159];
 
 double GetDistance(int p, int q)
 {
@@ -27,7 +27,7 @@ void PlayGreedy()
     for (int i = 2; i <= N; i++)
     {
         // 距離の最小
-        double MinDist = 1000.0;
+        double MinDist = 10000.0;
         // 次はどの都市に移動するか
         int Min_ID = -1;
         // 距離が最小となる都市を探す
@@ -54,12 +54,12 @@ void PlayGreedy()
 int main()
 {
     cin >> N;
-    for (int i = 1; i < N; i++)
+    for (int i = 1; i <= N; i++)
     {
         cin >> X[i] >> Y[i];
     }
     PlayGreedy();
-    for (int i = 1; i <= M + 1; i++)
+    for (int i = 1; i <= N + 1; i++)
     {
         cout << P[i] << endl;
     }
