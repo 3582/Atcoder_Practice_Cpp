@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     string S, T;
-    cin >> S, T;
+    cin >> S >> T;
     // 辺の組み合わせ
     string edges = "AB BA BC CB CD DC DE ED EA AE";
     // 対角線の組み合わせ
