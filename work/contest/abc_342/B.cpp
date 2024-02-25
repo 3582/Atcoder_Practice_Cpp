@@ -1,9 +1,12 @@
 #include <iostream>
+#include <vector>
+
 using namespace std;
+
 int main()
 {
-    int A, B;
-    cin >> A >> B;
-    cout << A + B << endl;
+    int N, Q;
+    vector<int> P, A, B;
+
     return 0;
 }
